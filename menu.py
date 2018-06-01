@@ -33,11 +33,11 @@ while(running):
           #  call(commands)
             if len(commands):     #if command is none(in menu.ini), meaning we choose to exit.
                 call(commands)    #only rn command when one exits
-            elif (user_input.lower() == 'e'):
-                running = False
             else:
-                print ("Key is not in menu.")
                 running = False
+            #else:
+             #   print ("Key is not in menu.")
+              #  running = False
 print("Finished")
 #end
 
